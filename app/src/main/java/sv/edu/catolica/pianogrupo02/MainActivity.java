@@ -30,4 +30,34 @@ public class MainActivity extends AppCompatActivity {
         MediaPlayer sonido = MediaPlayer.create(this, R.raw.do1);
         sonar(sonido);
     }
+
+    public void SonarRe(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this, R.raw.re);
+        sonar(sonido);
+    }
+
+    public void SonarMi(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this, R.raw.mi);
+        sonar(sonido);
+    }
+
+    public void SonarFa(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this, R.raw.fa);
+        sonar(sonido);
+    }
+
+    public void SonarLa(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this, R.raw.la);
+        sonar(sonido);
+    }
+
+    public void SonarSi(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this, R.raw.si);
+        sonar(sonido);
+    }
+
+    public void SonarSol(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this, R.raw.sol);
+        sonar(sonido);
+    }
 }

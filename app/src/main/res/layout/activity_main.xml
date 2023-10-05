@@ -51,7 +51,8 @@
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black" />
+            app:strokeColor="@color/black"
+            android:onClick="SonarRe"/>
 
         <Button
             android:id="@+id/btnMi"
@@ -66,7 +67,8 @@
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black" />
+            app:strokeColor="@color/black"
+            android:onClick="SonarMi"/>
 
         <Button
             android:id="@+id/btnFa"
@@ -81,7 +83,8 @@
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black" />
+            app:strokeColor="@color/black"
+            android:onClick="SonarFa"/>
 
         <Button
             android:id="@+id/btnSol"
@@ -96,7 +99,8 @@
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black"/>
+            app:strokeColor="@color/black"
+            android:onClick="SonarSol"/>
 
         <Button
             android:id="@+id/btnLa"
@@ -111,7 +115,8 @@
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black" />
+            app:strokeColor="@color/black"
+            android:onClick="SonarLa"/>
 
         <Button
             android:id="@+id/btnSi"
@@ -126,7 +131,8 @@
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black"/>
+            app:strokeColor="@color/black"
+            android:onClick="SonarSi"/>
     </LinearLayout>
 
 </LinearLayout>
