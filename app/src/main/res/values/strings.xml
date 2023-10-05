@@ -8,4 +8,6 @@
     <string name="la">La</string>
     <string name="si">Si</string>
     <string name="dos">Do</string>
+    <string name="doSostenido"> </string>
+    <string name="DoSostenido" />
 </resources>
