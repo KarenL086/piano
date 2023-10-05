@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="15dp"
+    android:background="#020202"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -14,6 +15,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/teclado_clasico"
+        android:textColor="#F8F8F8"
         android:textSize="20sp" />
 
     <LinearLayout
@@ -46,13 +48,13 @@
             android:layout_weight="1"
             android:backgroundTint="#EFEDED"
             android:gravity="bottom|center_horizontal"
+            android:onClick="SonarRe"
             android:paddingTop="2dp"
             android:text="@string/re"
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black"
-            android:onClick="SonarRe"/>
+            app:strokeColor="@color/black" />
 
         <Button
             android:id="@+id/btnMi"
@@ -62,13 +64,13 @@
             android:layout_weight="1"
             android:backgroundTint="#EFEDED"
             android:gravity="bottom|center_horizontal"
+            android:onClick="SonarMi"
             android:paddingTop="2dp"
             android:text="@string/mi"
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black"
-            android:onClick="SonarMi"/>
+            app:strokeColor="@color/black" />
 
         <Button
             android:id="@+id/btnFa"
@@ -78,13 +80,13 @@
             android:layout_weight="1"
             android:backgroundTint="#EFEDED"
             android:gravity="bottom|center_horizontal"
+            android:onClick="SonarFa"
             android:paddingTop="2dp"
             android:text="@string/fa"
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black"
-            android:onClick="SonarFa"/>
+            app:strokeColor="@color/black" />
 
         <Button
             android:id="@+id/btnSol"
@@ -94,13 +96,13 @@
             android:layout_weight="1"
             android:backgroundTint="#EFEDED"
             android:gravity="bottom|center_horizontal"
+            android:onClick="SonarSol"
             android:paddingTop="2dp"
             android:text="@string/sol"
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black"
-            android:onClick="SonarSol"/>
+            app:strokeColor="@color/black" />
 
         <Button
             android:id="@+id/btnLa"
@@ -110,13 +112,13 @@
             android:layout_weight="1"
             android:backgroundTint="#EFEDED"
             android:gravity="bottom|center_horizontal"
+            android:onClick="SonarLa"
             android:paddingTop="2dp"
             android:text="@string/la"
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black"
-            android:onClick="SonarLa"/>
+            app:strokeColor="@color/black" />
 
         <Button
             android:id="@+id/btnSi"
@@ -126,13 +128,13 @@
             android:layout_weight="1"
             android:backgroundTint="#EFEDED"
             android:gravity="bottom|center_horizontal"
+            android:onClick="SonarSi"
             android:paddingTop="2dp"
             android:text="@string/si"
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black"
-            android:onClick="SonarSi"/>
+            app:strokeColor="@color/black" />
     </LinearLayout>
 
 </LinearLayout>
