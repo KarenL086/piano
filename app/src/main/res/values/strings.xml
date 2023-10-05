@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PianoGrupo02</string>
+    <string name="re">Re</string>
+    <string name="mi">Mi</string>
+    <string name="teclado_clasico">Teclado Clasico</string>
+    <string name="sol">Sol</string>
+    <string name="fa">Fa</string>
+    <string name="la">La</string>
+    <string name="si">Si</string>
+    <string name="dos">do</string>
+</resources>
