@@ -19,18 +19,18 @@
         android:textColor="#F8F8F8"
         android:textSize="34sp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
         android:layout_height="288dp"
-        android:layout_margin="10dp"
-        android:orientation="horizontal">
+        android:layout_margin="10dp">
 
         <Button
             android:id="@+id/btnDo"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_height="288dp"
+            android:layout_marginStart="10dp"
             android:backgroundTint="#EFEDED"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarDo"
@@ -39,14 +39,18 @@
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnRe"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="@color/black"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <Button
             android:id="@+id/btnRe"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_height="288dp"
             android:backgroundTint="#EFEDED"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarRe"
@@ -55,14 +59,18 @@
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnMi"
+            app:layout_constraintStart_toEndOf="@+id/btnDo"
+            app:layout_constraintTop_toTopOf="parent"
             app:strokeColor="@color/black" />
 
         <Button
             android:id="@+id/btnMi"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_height="288dp"
+            android:layout_marginStart="88dp"
             android:backgroundTint="#EFEDED"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarMi"
@@ -71,14 +79,18 @@
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnDo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
             app:strokeColor="@color/black" />
 
         <Button
             android:id="@+id/btnFa"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_height="288dp"
+            android:layout_marginStart="272dp"
             android:backgroundTint="#EFEDED"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarFa"
@@ -87,14 +99,18 @@
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:strokeColor="@color/black"
+            tools:ignore="VisualLintOverlap" />
 
         <Button
             android:id="@+id/btnSol"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_height="288dp"
             android:backgroundTint="#EFEDED"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarSol"
@@ -103,14 +119,18 @@
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnFa"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:strokeColor="@color/black"
+            tools:ignore="VisualLintBounds" />
 
         <Button
             android:id="@+id/btnLa"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_height="288dp"
             android:backgroundTint="#EFEDED"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarLa"
@@ -119,14 +139,21 @@
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
-            app:strokeColor="@color/black" />
+            app:layout_constraintBottom_toBottomOf="@+id/btnSol"
+            app:layout_constraintEnd_toStartOf="@+id/btnSi"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btnSol"
+            app:layout_constraintTop_toTopOf="@+id/btnSol"
+            app:layout_constraintVertical_bias="0.0"
+            app:strokeColor="@color/black"
+            tools:ignore="VisualLintBounds" />
 
         <Button
             android:id="@+id/btnSi"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_height="288dp"
+            android:layout_marginEnd="4dp"
             android:backgroundTint="#EFEDED"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarSi"
@@ -135,8 +162,32 @@
             android:textColor="#444B51"
             android:textSize="20sp"
             app:cornerRadius="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:strokeColor="@color/black" />
 
-    </LinearLayout>
+        <Button
+            android:id="@+id/btnDo2"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="54dp"
+            android:layout_height="181dp"
+            android:layout_marginStart="72dp"
+            android:backgroundTint="#0B0B0B"
+            android:gravity="bottom|center_horizontal"
+            android:onClick="SonarDo"
+            android:paddingTop="2dp"
+            android:text="@string/DoSostenido"
+            android:textColor="#444B51"
+            android:textSize="20sp"
+            app:cornerRadius="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:strokeColor="@color/black"
+            tools:ignore="HardcodedText,TextContrastCheck,SpeakableTextPresentCheck"
+            tools:text=" " />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>
