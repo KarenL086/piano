@@ -10,4 +10,17 @@
     <string name="dos">Do</string>
     <string name="doSostenido"> </string>
     <string name="DoSostenido" />
+    <string name="txt_tituloanimal">Teclado: animales de la selva</string>
+    <string name="descripelefante">elefante</string>
+    <string name="descripimagen_de_ave">Imagen de ave</string>
+    <string name="descripimagen_de_serpiente">Imagen de serpiente</string>
+    <string name="descripimagen_de_mono">Imagen de mono</string>
+    <string name="descripimagen_de_rana">Imagen de rana</string>
+    <string name="txtbtnelefante">Elefante</string>
+    <string name="txtbtnave">Ave</string>
+    <string name="txtbtnmono">Mono</string>
+    <string name="txtbtnleon">Leon</string>
+    <string name="txtbtnserpiente">Serpiente</string>
+    <string name="txtbtnrana">Rana</string>
+    <string name="txtbtnaguila">Aguila</string>
 </resources>
