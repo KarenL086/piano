@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="15dp"
     android:background="#020202"
     android:gravity="center"
     android:orientation="vertical"
+    android:padding="15dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -21,8 +21,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="597dp"
-        android:layout_height="197dp"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
         android:layout_margin="10dp">
 
         <Button
@@ -129,7 +129,7 @@
             android:id="@+id/btnLa"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="80dp"
-            android:layout_height="197dp"
+            android:layout_height="0dp"
             android:backgroundTint="#EFEDED"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarLa"
@@ -196,7 +196,7 @@
             android:layout_marginStart="152dp"
             android:backgroundTint="#0B0B0B"
             android:gravity="bottom|center_horizontal"
-            android:onClick="SonarDo"
+            android:onClick="SonarRe"
             android:paddingTop="2dp"
             android:text="@string/DoSostenido"
             android:textColor="#444B51"
@@ -218,7 +218,7 @@
             android:layout_marginStart="240dp"
             android:backgroundTint="#0B0B0B"
             android:gravity="bottom|center_horizontal"
-            android:onClick="SonarDo"
+            android:onClick="SonarMi"
             android:paddingTop="2dp"
             android:text="@string/DoSostenido"
             android:textColor="#444B51"
@@ -240,7 +240,7 @@
             android:layout_marginStart="416dp"
             android:backgroundTint="#0B0B0B"
             android:gravity="bottom|center_horizontal"
-            android:onClick="SonarDo"
+            android:onClick="SonarSol"
             android:paddingTop="2dp"
             android:text="@string/DoSostenido"
             android:textColor="#444B51"
@@ -262,7 +262,7 @@
             android:layout_marginStart="328dp"
             android:backgroundTint="#0B0B0B"
             android:gravity="bottom|center_horizontal"
-            android:onClick="SonarDo"
+            android:onClick="SonarFa"
             android:paddingTop="2dp"
             android:text="@string/DoSostenido"
             android:textColor="#444B51"
@@ -284,7 +284,7 @@
             android:layout_marginStart="492dp"
             android:backgroundTint="#0B0B0B"
             android:gravity="bottom|center_horizontal"
-            android:onClick="SonarDo"
+            android:onClick="SonarLa"
             android:paddingTop="2dp"
             android:text="@string/DoSostenido"
             android:textColor="#444B51"
