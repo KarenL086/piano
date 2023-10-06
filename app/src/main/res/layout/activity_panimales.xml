@@ -81,12 +81,13 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#BDB2FF"
-            android:gravity="center|center_horizontal"
+            android:gravity="bottom|center_horizontal"
             android:onClick="SonarElefante"
             android:paddingTop="2dp"
             android:text="@string/txtbtnelefante"
             android:textColor="#444B51"
             android:textSize="12sp"
+            app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
 
         <Button
@@ -94,12 +95,13 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#A0C4FF"
-            android:gravity="center|center_horizontal"
+            android:gravity="bottom|center_horizontal"
             android:onClick="SonarAve"
             android:paddingTop="2dp"
             android:text="@string/txtbtnave"
             android:textColor="#444B51"
             android:textSize="12sp"
+            app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
 
         <Button
@@ -107,12 +109,13 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#9BF6FF"
-            android:gravity="center|center_horizontal"
+            android:gravity="bottom|center_horizontal"
             android:onClick="SonarMono"
             android:paddingTop="2dp"
             android:text="@string/txtbtnmono"
             android:textColor="#444B51"
             android:textSize="12sp"
+            app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
 
         <Button
@@ -120,12 +123,13 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#CAFFBF"
-            android:gravity="center|center_horizontal"
+            android:gravity="bottom|center_horizontal"
             android:onClick="SonarLeon"
             android:paddingTop="2dp"
             android:text="@string/txtbtnleon"
             android:textColor="#444B51"
             android:textSize="12sp"
+            app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
 
         <Button
@@ -133,12 +137,13 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#FDFFB6"
-            android:gravity="center|center_horizontal"
+            android:gravity="bottom|center_horizontal"
             android:onClick="SonarSerpiente"
             android:paddingTop="2dp"
             android:text="@string/txtbtnserpiente"
             android:textColor="#444B51"
             android:textSize="12sp"
+            app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
 
         <Button
@@ -146,12 +151,13 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#FFD6A5"
-            android:gravity="center|center_horizontal"
+            android:gravity="bottom|center_horizontal"
             android:onClick="SonarRana"
             android:paddingTop="2dp"
             android:text="@string/txtbtnrana"
             android:textColor="#444B51"
             android:textSize="12sp"
+            app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
 
         <Button
@@ -159,12 +165,13 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#FFADAD"
-            android:gravity="center|center_horizontal"
+            android:gravity="bottom|center_horizontal"
             android:onClick="SonarAguila"
             android:paddingTop="2dp"
             android:text="@string/txtbtnaguila"
             android:textColor="#444B51"
             android:textSize="12sp"
+            app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
 
     </LinearLayout>
