@@ -147,7 +147,7 @@
             android:layout_height="match_parent"
             android:backgroundTint="#FFD6A5"
             android:gravity="center|center_horizontal"
-            android:onClick="SonarHiena"
+            android:onClick="SonarRana"
             android:paddingTop="2dp"
             android:text="@string/txtbtnrana"
             android:textColor="#444B51"

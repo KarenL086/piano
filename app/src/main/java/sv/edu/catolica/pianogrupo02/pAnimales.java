@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 public class pAnimales extends AppCompatActivity {
 
@@ -27,18 +26,37 @@ public class pAnimales extends AppCompatActivity {
     }
 
     public void SonarElefante(View view) {
-        MediaPlayer s;
+        MediaPlayer sonido = MediaPlayer.create(this, R.raw.elefante);
+        sonar(sonido);
     }
 
     public void SonarAve(View view) {
-        MediaPlayer s;
+        MediaPlayer sonido = MediaPlayer.create(this, R.raw.ave);
+        sonar(sonido);
     }
 
     public void SonarMono(View view) {
-        MediaPlayer s;
+        MediaPlayer sonido = MediaPlayer.create(this, R.raw.mono);
+        sonar(sonido);
     }
 
     public void SonarSerpiente(View view) {
-        MediaPlayer s;
+        MediaPlayer sonido = MediaPlayer.create(this, R.raw.cobra);
+        sonar(sonido);
+    }
+
+    public void SonarLeon(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this, R.raw.leon);
+        sonar(sonido);
+    }
+
+    public void SonarRana(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this, R.raw.frogs);
+        sonar(sonido);
+    }
+
+    public void SonarAguila(View view) {
+        MediaPlayer sonido = MediaPlayer.create(this, R.raw.aguila);
+        sonar(sonido);
     }
 }
