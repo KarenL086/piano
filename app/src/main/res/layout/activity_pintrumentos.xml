@@ -95,6 +95,7 @@
             android:layout_weight="1"
             android:backgroundTint="#B5780116"
             android:gravity="bottom|center_horizontal"
+            android:onClick="SonarTambor"
             android:paddingTop="2dp"
             android:text="@string/tambor"
             app:cornerRadius="0dp"
@@ -107,6 +108,7 @@
             android:layout_weight="1"
             android:backgroundTint="#B5F7B538"
             android:gravity="bottom|center_horizontal"
+            android:onClick="SonarTrompeta"
             android:text="@string/trompeta"
             app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,TextContrastCheck" />
@@ -118,6 +120,7 @@
             android:layout_weight="1"
             android:backgroundTint="#B5DB7C26"
             android:gravity="bottom|center_horizontal"
+            android:onClick="SonarFlauta"
             android:text="@string/flauta"
             app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,TextContrastCheck" />
@@ -129,6 +132,7 @@
             android:layout_weight="1"
             android:backgroundTint="#B5D8572A"
             android:gravity="bottom|center_horizontal"
+            android:onClick="SonarGuitarra"
             android:text="@string/guitarra"
             app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,TextContrastCheck" />
@@ -140,6 +144,7 @@
             android:layout_weight="1"
             android:backgroundTint="#B5C32F27"
             android:gravity="bottom|center_horizontal"
+            android:onClick="SonarViolin"
             android:text="@string/violin"
             app:cornerRadius="0dp"
             tools:ignore="ButtonStyle" />
@@ -151,6 +156,7 @@
             android:layout_weight="1"
             android:backgroundTint="#B5723D46"
             android:gravity="bottom|center_horizontal"
+            android:onClick="SonarSaxo"
             android:text="@string/saxofon"
             app:cornerRadius="0dp"
             tools:ignore="ButtonStyle" />
@@ -162,6 +168,7 @@
             android:layout_weight="1"
             android:backgroundTint="#B5472D30"
             android:gravity="bottom|center_horizontal"
+            android:onClick="SonarArpa"
             android:text="@string/arpa"
             app:cornerRadius="0dp"
             tools:ignore="ButtonStyle" />
