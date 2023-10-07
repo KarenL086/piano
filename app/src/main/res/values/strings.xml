@@ -23,4 +23,19 @@
     <string name="txtbtnserpiente">Serpiente</string>
     <string name="txtbtnrana">Rana</string>
     <string name="txtbtnaguila">Águila</string>
+    <string name="arpa">Arpa</string>
+    <string name="saxofon">Saxofón</string>
+    <string name="violin">Violin</string>
+    <string name="guitarra">Guitarra</string>
+    <string name="flauta">Flauta</string>
+    <string name="trompeta">Trompeta</string>
+    <string name="tambor">Tambor</string>
+    <string name="imagen8">Imagen8</string>
+    <string name="imagen7">imagen7</string>
+    <string name="imagen6">imagen6</string>
+    <string name="imagen5">imagen5</string>
+    <string name="imagen4">imagen4</string>
+    <string name="imagen2">imagen2</string>
+    <string name="imagen1">imagen1</string>
+    <string name="teclado_instrumentos">Teclado: Instrumentos</string>
 </resources>
