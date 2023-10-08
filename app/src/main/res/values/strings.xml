@@ -43,4 +43,9 @@
     <string name="salir">Salir</string>
     <string name="imagen_de_leon">Imagen de leon</string>
     <string name="imagen_de_aguila">Imagen de aguila</string>
+    <string name="desarrolladores">Desarrolladores:</string>
+    <string name="merari">Merari Angelica Perdomo Figueroa</string>
+    <string name="ver">Verónica Lisseth Marín Santos</string>
+    <string name="karen">Karen Andrea López Magaña</string>
+    <string name="foto_grupal">foto_grupal</string>
 </resources>

@@ -27,15 +27,22 @@ public class acerca_de extends AppCompatActivity {
             final String[] piano={"Piano clasico", "Piano de animales","Piano de instrumentos"};
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setItems(piano, (dialog, i) -> {
-                if (piano[i].equals("Piano clasico")) {
-                    Intent objVentana=new Intent(getApplicationContext(), MainActivity.class);
-                    startActivity(objVentana);
-                }else if (piano[i].equals("Piano de animales")){
-                    Intent objVentana=new Intent(getApplicationContext(), pAnimales.class);
-                    startActivity(objVentana);
-                } else if(piano[i].equals("Piano de instrumentos")){
-                    Intent objVentana=new Intent(getApplicationContext(), pIntrumentos.class);
-                    startActivity(objVentana);
+                switch (piano[i]) {
+                    case "Piano clasico": {
+                        Intent objVentana = new Intent(getApplicationContext(), MainActivity.class);
+                        startActivity(objVentana);
+                        break;
+                    }
+                    case "Piano de animales": {
+                        Intent objVentana = new Intent(getApplicationContext(), pAnimales.class);
+                        startActivity(objVentana);
+                        break;
+                    }
+                    case "Piano de instrumentos": {
+                        Intent objVentana = new Intent(getApplicationContext(), pIntrumentos.class);
+                        startActivity(objVentana);
+                        break;
+                    }
                 }
             });
             builder.create();
@@ -47,6 +54,10 @@ public class acerca_de extends AppCompatActivity {
             return true;
         } else if (item.getItemId()==R.id.salir) {
             finish();
+            Intent intent = new Intent(Intent.ACTION_MAIN);
+            intent.addCategory(Intent.CATEGORY_HOME);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
             return true;
         } else {
             return super.onOptionsItemSelected(item);
