@@ -2,7 +2,7 @@
     <string name="app_name">PianoGrupo02</string>
     <string name="re">Re</string>
     <string name="mi">Mi</string>
-    <string name="teclado_clasico">Teclado Clasico</string>
+    <string name="teclado_clasico">Teclado Clásico</string>
     <string name="sol">Sol</string>
     <string name="fa">Fa</string>
     <string name="la">La</string>
@@ -38,4 +38,9 @@
     <string name="imagen2">imagen2</string>
     <string name="imagen1">imagen1</string>
     <string name="teclado_instrumentos">Teclado: Instrumentos</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="tipo_de_piano">Tipo de piano</string>
+    <string name="salir">Salir</string>
+    <string name="imagen_de_leon">Imagen de leon</string>
+    <string name="imagen_de_aguila">Imagen de aguila</string>
 </resources>

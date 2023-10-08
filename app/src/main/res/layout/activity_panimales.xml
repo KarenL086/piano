@@ -27,6 +27,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -46,14 +48,6 @@
             app:srcCompat="@drawable/pajaro" />
 
         <ImageView
-            android:id="@+id/imgSerpiente"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:contentDescription="@string/descripimagen_de_serpiente"
-            app:srcCompat="@drawable/serpiente" />
-
-        <ImageView
             android:id="@+id/Mono"
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -62,19 +56,45 @@
             app:srcCompat="@drawable/mono" />
 
         <ImageView
+            android:id="@+id/imgLeon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/imagen_de_leon"
+            app:srcCompat="@drawable/leon" />
+
+        <ImageView
+            android:id="@+id/imgSerpiente"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/descripimagen_de_serpiente"
+            app:srcCompat="@drawable/serpiente" />
+
+        <ImageView
             android:id="@+id/Rana"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_weight="1"
             android:contentDescription="@string/descripimagen_de_rana"
             app:srcCompat="@drawable/rana" />
+
+        <ImageView
+            android:id="@+id/imdAguila"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/imagen_de_aguila"
+            app:srcCompat="@drawable/aguila" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
-        android:layout_height="220dp"
-        android:layout_margin="10dp">
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnElefante"
