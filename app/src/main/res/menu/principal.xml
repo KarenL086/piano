@@ -11,8 +11,7 @@
         android:orderInCategory="1"
         app:showAsAction="ifRoom"/>
     <item android:id="@+id/salir"
-        android:icon="@drawable/ic_menu_exit"
         android:title="@string/salir"
         android:orderInCategory="3"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="never"/>
 </menu>

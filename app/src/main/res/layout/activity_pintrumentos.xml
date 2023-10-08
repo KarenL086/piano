@@ -28,7 +28,7 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="106dp"
+            android:layout_width="133dp"
             android:layout_height="50dp"
             android:contentDescription="@string/imagen1"
             app:srcCompat="@drawable/tambor"
@@ -36,21 +36,21 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="92dp"
+            android:layout_width="131dp"
             android:layout_height="50dp"
             android:contentDescription="@string/imagen2"
             app:srcCompat="@drawable/trompeta" />
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="85dp"
+            android:layout_width="115dp"
             android:layout_height="50dp"
             android:contentDescription="@string/imagen4"
             app:srcCompat="@drawable/flauta" />
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="106dp"
+            android:layout_width="123dp"
             android:layout_height="50dp"
             android:contentDescription="@string/imagen5"
             app:srcCompat="@drawable/guitarra"
@@ -58,21 +58,21 @@
 
         <ImageView
             android:id="@+id/imageView6"
-            android:layout_width="98dp"
+            android:layout_width="111dp"
             android:layout_height="50dp"
             android:contentDescription="@string/imagen6"
             app:srcCompat="@drawable/violin" />
 
         <ImageView
             android:id="@+id/imageView7"
-            android:layout_width="110dp"
+            android:layout_width="125dp"
             android:layout_height="50dp"
             android:contentDescription="@string/imagen7"
             app:srcCompat="@drawable/saxofono" />
 
         <ImageView
             android:id="@+id/imageView8"
-            android:layout_width="wrap_content"
+            android:layout_width="110dp"
             android:layout_height="50dp"
             android:contentDescription="@string/imagen8"
             app:srcCompat="@drawable/arpa"
