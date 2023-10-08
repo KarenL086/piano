@@ -23,67 +23,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="133dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/imagen1"
-            app:srcCompat="@drawable/tambor"
-            tools:ignore="ImageContrastCheck" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="131dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/imagen2"
-            app:srcCompat="@drawable/trompeta" />
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="115dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/imagen4"
-            app:srcCompat="@drawable/flauta" />
-
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="123dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/imagen5"
-            app:srcCompat="@drawable/guitarra"
-            tools:ignore="ImageContrastCheck" />
-
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="111dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/imagen6"
-            app:srcCompat="@drawable/violin" />
-
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="125dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/imagen7"
-            app:srcCompat="@drawable/saxofono" />
-
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="110dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/imagen8"
-            app:srcCompat="@drawable/arpa"
-            tools:ignore="ImageContrastCheck" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_margin="10dp"
+        android:layout_height="match_parent"
         android:gravity="center"
+        android:layout_margin="15dp"
         android:orientation="horizontal">
 
         <Button
@@ -92,12 +34,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#B5780116"
+            android:drawableBottom="@drawable/tam"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarTambor"
             android:paddingTop="2dp"
             android:text="@string/tambor"
             app:cornerRadius="0dp"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button2"
@@ -105,11 +48,12 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#B5F7B538"
+            android:drawableBottom="@drawable/tr"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarTrompeta"
             android:text="@string/trompeta"
             app:cornerRadius="0dp"
-            tools:ignore="ButtonStyle,TextContrastCheck" />
+            tools:ignore="ButtonStyle,TextContrastCheck,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button3"
@@ -117,11 +61,12 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#B5DB7C26"
+            android:drawableBottom="@drawable/fla"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarFlauta"
             android:text="@string/flauta"
             app:cornerRadius="0dp"
-            tools:ignore="ButtonStyle,TextContrastCheck" />
+            tools:ignore="ButtonStyle,TextContrastCheck,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button4"
@@ -129,11 +74,12 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#B5D8572A"
+            android:drawableBottom="@drawable/gui"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarGuitarra"
             android:text="@string/guitarra"
             app:cornerRadius="0dp"
-            tools:ignore="ButtonStyle,TextContrastCheck" />
+            tools:ignore="ButtonStyle,TextContrastCheck,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button5"
@@ -141,11 +87,12 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#B5C32F27"
+            android:drawableBottom="@drawable/vi"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarViolin"
             android:text="@string/violin"
             app:cornerRadius="0dp"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button6"
@@ -153,11 +100,12 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#B5723D46"
+            android:drawableBottom="@drawable/sax"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarSaxo"
             android:text="@string/saxofon"
             app:cornerRadius="0dp"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button7"
@@ -165,10 +113,11 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#B5472D30"
+            android:drawableBottom="@drawable/filarmonico"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarArpa"
             android:text="@string/arpa"
             app:cornerRadius="0dp"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
     </LinearLayout>
 </LinearLayout>
