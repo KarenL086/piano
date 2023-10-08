@@ -7,7 +7,7 @@
     android:background="@drawable/fondo4"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="15dp"
+    android:padding="20dp"
     tools:context=".pAnimales">
 
     <TextView
@@ -25,71 +25,6 @@
         tools:ignore="TextContrastCheck" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/imgElefante"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:contentDescription="@string/descripelefante"
-            app:srcCompat="@drawable/elefante" />
-
-        <ImageView
-            android:id="@+id/imgPajaro"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:contentDescription="@string/descripimagen_de_ave"
-            app:srcCompat="@drawable/pajaro" />
-
-        <ImageView
-            android:id="@+id/Mono"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:contentDescription="@string/descripimagen_de_mono"
-            app:srcCompat="@drawable/mono" />
-
-        <ImageView
-            android:id="@+id/imgLeon"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:contentDescription="@string/imagen_de_leon"
-            app:srcCompat="@drawable/leon" />
-
-        <ImageView
-            android:id="@+id/imgSerpiente"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:contentDescription="@string/descripimagen_de_serpiente"
-            app:srcCompat="@drawable/serpiente" />
-
-        <ImageView
-            android:id="@+id/Rana"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:contentDescription="@string/descripimagen_de_rana"
-            app:srcCompat="@drawable/rana" />
-
-        <ImageView
-            android:id="@+id/imdAguila"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:contentDescription="@string/imagen_de_aguila"
-            app:srcCompat="@drawable/aguila" />
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
@@ -102,98 +37,98 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#BDB2FF"
+            android:drawableBottom="@drawable/el"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarElefante"
             android:paddingTop="2dp"
-            android:text="@string/txtbtnelefante"
             android:textColor="#444B51"
             android:textSize="12sp"
             app:cornerRadius="0dp"
-            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
+            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/btnAve"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#A0C4FF"
+            android:drawableBottom="@drawable/pa"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarAve"
             android:paddingTop="2dp"
-            android:text="@string/txtbtnave"
             android:textColor="#444B51"
             android:textSize="12sp"
             app:cornerRadius="0dp"
-            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
+            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/btnMono"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#9BF6FF"
+            android:drawableBottom="@drawable/mo"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarMono"
             android:paddingTop="2dp"
-            android:text="@string/txtbtnmono"
             android:textColor="#444B51"
             android:textSize="12sp"
             app:cornerRadius="0dp"
-            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
+            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/btnLeon"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#CAFFBF"
+            android:drawableBottom="@drawable/le"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarLeon"
             android:paddingTop="2dp"
-            android:text="@string/txtbtnleon"
             android:textColor="#444B51"
             android:textSize="12sp"
             app:cornerRadius="0dp"
-            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
+            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/btnSerpiente"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#FDFFB6"
+            android:drawableBottom="@drawable/ana"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarSerpiente"
             android:paddingTop="2dp"
-            android:text="@string/txtbtnserpiente"
             android:textColor="#444B51"
             android:textSize="12sp"
             app:cornerRadius="0dp"
-            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
+            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/btnRana"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#FFD6A5"
+            android:drawableBottom="@drawable/ra"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarRana"
             android:paddingTop="2dp"
-            android:text="@string/txtbtnrana"
             android:textColor="#444B51"
             android:textSize="12sp"
             app:cornerRadius="0dp"
-            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
+            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/btnAguila"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#FFADAD"
+            android:drawableBottom="@drawable/agui"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarAguila"
             android:paddingTop="2dp"
-            android:text="@string/txtbtnaguila"
             android:textColor="#444B51"
             android:textSize="12sp"
             app:cornerRadius="0dp"
-            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
+            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
 
     </LinearLayout>
 

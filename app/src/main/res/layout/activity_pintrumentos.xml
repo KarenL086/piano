@@ -18,7 +18,7 @@
         android:gravity="center"
         android:text="@string/teclado_instrumentos"
         android:textColor="#FFFFFF"
-        android:textSize="34sp"
+        android:textSize="24sp"
         tools:ignore="TextSizeCheck" />
 
     <LinearLayout
@@ -38,7 +38,6 @@
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarTambor"
             android:paddingTop="2dp"
-            android:text="@string/tambor"
             app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
 
@@ -51,7 +50,6 @@
             android:drawableBottom="@drawable/tr"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarTrompeta"
-            android:text="@string/trompeta"
             app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,TextContrastCheck,SpeakableTextPresentCheck" />
 
@@ -64,7 +62,6 @@
             android:drawableBottom="@drawable/fla"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarFlauta"
-            android:text="@string/flauta"
             app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,TextContrastCheck,SpeakableTextPresentCheck" />
 
@@ -77,7 +74,6 @@
             android:drawableBottom="@drawable/gui"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarGuitarra"
-            android:text="@string/guitarra"
             app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,TextContrastCheck,SpeakableTextPresentCheck" />
 
@@ -90,7 +86,6 @@
             android:drawableBottom="@drawable/vi"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarViolin"
-            android:text="@string/violin"
             app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
 
@@ -103,7 +98,6 @@
             android:drawableBottom="@drawable/sax"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarSaxo"
-            android:text="@string/saxofon"
             app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
 
@@ -116,7 +110,6 @@
             android:drawableBottom="@drawable/filarmonico"
             android:gravity="bottom|center_horizontal"
             android:onClick="SonarArpa"
-            android:text="@string/arpa"
             app:cornerRadius="0dp"
             tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
     </LinearLayout>
